@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "model_version": "1.0.0",
+  "published_at": "2026-10-23T00:00:00+00:00",
+  "model_file": "yolov8n_int8_v1_0_0.tflite",
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "size_bytes": 3245056,
+  "input_size": [320, 320, 3],
+  "quantization": "INT8",
+  "heuristics": {
+    "confidence_threshold": 0.45,
+    "iou_threshold": 0.50,
+    "cooldown_ms": 3500,
+    "critical_area_ratio": 0.18,
+    "priority_classes": [
+      "person",
+      "car",
+      "bicycle",
+      "motorcycle",
+      "bus",
+      "truck",
+      "stop sign"
+    ]
+  }
+}
