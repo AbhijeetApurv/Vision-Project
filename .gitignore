@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Heavy ML Model Binaries & Checkpoints
+*.tflite
+*.litertlm
+*.pt
+*.pth
+*.onnx
+*.saved_model/
+ota_server/models/*.tflite
+
+# Android / Gradle Build Cache
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,12 @@
+# Plane 1A: Cloud Colab Training & LiteRT Quantization Dependencies
+ultralytics>=8.2.0
+ai-edge-litert>=1.0.1
+tensorflow>=2.16.1
+onnx>=1.16.0
+onnx2tf>=1.22.0
+sng4onnx>=1.0.4
+onnxslim>=0.1.31
+tflite-support>=0.4.4
+numpy>=1.26.0
+opencv-python-headless>=4.9.0.80
+PyYAML>=6.0.1
